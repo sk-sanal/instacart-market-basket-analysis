@@ -8,7 +8,7 @@ As per a Mckinsey report, 60%+ Europeans tried a new shopping experience during 
 ------------------
 The business requirement here is to predict which previously purchased products will be in customer’s next order. Our aim here is to predict if a user will reorder previously purchased products, it does not involve suggesting new products to customers. The final aim is to drive higher sales for the company via improved customer experience, increased customer interaction and suggesting relevant products to consumers, which saves time. Net/net maximize their return on investment (ROI) based on the information gathered from customers' purchases and preferences. I must say making customers switch to online grocery shopping is not an easy proposition, while the pandemic provided tailwinds, the key for companies like Instacart is to retain existing customers and drawing news consumers to the platform. Hence, a recommender system helps in improving the shopping potential of an existing user. 
 
-***What's in it for Instacart?***.
+***What's in it for Instacart?***
 In my opinion this is Instacart's first attempt to develop a customized taste profile of its customers (though not explicitly stated). Further, customer insights can also help retailers to advertise and sell their products in a better way on the platform.
 
 ## Business Model
@@ -38,9 +38,9 @@ We are provided with 6 corelated CSV files/tables, namely:
 ------------------
 Jupyter notebooks:  
 
->> InstacartAnalysis_EDA: contains the code for data cleansing, EDA  
->> InstacartAnalysis_feature_engineering: contains the code for feature engineering  
->> InstacartAnalysis_Models: contains the code for model training and evaluation
+* InstacartAnalysis_EDA: contains the code for data cleansing, EDA  
+* InstacartAnalysis_feature_engineering: contains the code for feature engineering  
+* InstacartAnalysis_Models: contains the code for model training and evaluation
 
 ## Exploratory Data Analysis
 ------------------
@@ -84,17 +84,11 @@ This is a binary classification probelm. The dataset which we have for training 
 
 ## Evaluation
 ------------------
-Accuracy would not be the right measure to evaluate the model due to imbalanced data set. We need to use the F1 score. I achieved a F1 score of 0.18
+Accuracy would not be the right measure to evaluate the model due to imbalanced data set. We need to use the F1 score. I achieved a F1 score of 0.18 on the training and the test dataset
 
-## Conclusion
+## Next Steps
 ------------------
-
-
-
-
-Next steps:
-Deep dive little more into feature engineering and try to create few more features
-Apply XGboost algorithm on the dataset
+The goal is to further improve the F1 score. I want to create some more features to improve the predictive performance of the model. Further, explore other options to handle imbalanced data set, which includes hyperparameter tuning and exploring other supervised classification models
 
 
 
