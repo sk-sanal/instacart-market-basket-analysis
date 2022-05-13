@@ -80,7 +80,7 @@ of instacart
 
 ## Modeling
 ------------------
-This is a binary classification probelm. The dataset which we have for training and testing is highly imbalanced, with 7,645,837 products with no-reorders (90%) and 828,824 products with reorders (10%). I used logistic regression method because it comes a built-in method of handling imbalanced classes, which is using the class_weight parameter to weight the classes to make certain we have a balanced mix of each class.
+This is a binary classification problem. The dataset which we have for training and testing is highly imbalanced, with 7,645,837 products with no-reorders (90%) and 828,824 products with reorders (10%). I used logistic regression method because it comes a built-in method of handling imbalanced classes, which is using the class_weight parameter to weight the classes to make certain we have a balanced mix of each class.
 
 ## Evaluation
 ------------------
