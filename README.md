@@ -2,7 +2,7 @@
 
 ## Introduction
 ---------------------------
-As per a Mckinsey report, 60%+ Europeans tried a new shopping experience during the pandemic, and most are expected to continue with new habits. The Instacart project gave me an opportunity to gain more insights into consumer buying behavior in the gig economy against the backdrop of current economic environment, apart from applying my newly learned data science skills. Moreover, being an Instacart customer myself (while I was in Toronto), I was excited to see my real life experience being engineered as a feature!!
+As per a Mckinsey report, 60%+ Europeans tried a new shopping experience during the pandemic, and most are expected to continue with new habits. The Instacart project gave me an opportunity to gain more insights into consumer buying behavior in the gig economy against the backdrop of current economic environment.
 
 ## Business Problem
 ------------------
