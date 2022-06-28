@@ -18,7 +18,7 @@ Instacart provides on-demand grocery delivery by connecting customers with perso
 ## ML Formulation of the Problem
 ------------------
 We have to recommend users the products, the user has already purchased. We are going to pose this problem as supervised learning binary classification problem. With binary labels being whether the previously ordered product will be reordered or not. We have to come up with features which summarizes the information about the user’s previous orders and the products contained in them.
-This problem is different from the classical recommendation problem (like Netflix recommendation system), where we generally recommend users, products (or movies) that are similar to the products that the users have already purchased( or viewed.
+This problem is different from the classical recommendation problem (like Netflix recommendation system), where we generally recommend users, products (or movies) that are similar to the products that the users have already purchased or viewed.
 
 0 - indicates that the user did not reorder  
 1 - indicates that the user reordered
